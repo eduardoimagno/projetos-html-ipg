@@ -78,6 +78,7 @@ a:link, a:hover, a:active, a:visited {
     padding: 0;
     width: 100%;
     height: 100vh;
+
 }
 .conteudo-texto-conjunto2{
     background-color: rgba(245, 245, 245, 0.692);
@@ -87,7 +88,7 @@ a:link, a:hover, a:active, a:visited {
 }
 .posicao-conjunto2{
     float: left;
-    width: 49%;
+    width: 50%;
     height: 50vh;
 }
 .blue{
@@ -200,6 +201,7 @@ a:link, a:hover, a:active, a:visited {
     padding-bottom:15vh;
 }
 .foto-perfil{
+    color: white;
     width: 50%;
     margin: 0 40% 0 40%;
 }
@@ -265,7 +267,7 @@ a:link, a:hover, a:active, a:visited {
     text-decoration: none;
 }
 .semi-rodape-coluna3{
- 
+    
     width: 20%;
     height:60vh ; 
     display: inline-block;
