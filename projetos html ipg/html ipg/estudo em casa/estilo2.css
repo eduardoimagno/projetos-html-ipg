@@ -1,3 +1,5 @@
+
+*
 body {
     font-family: 'Fira Sans', sans-serif;
     font-family: 'Heebo', sans-serif;
@@ -49,7 +51,7 @@ html {
     margin: auto;
     width: 100%;
     font-size: 1.5rem;
-    justify-content: space-between;
+    justify-content: space-evenly;
     min-width: 2vh;
 }
 
@@ -92,12 +94,12 @@ li {
 }
 
 .font-size {
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .cont-cabecalho {
-    margin-top: 25vh;
-    margin-left: 25vw;
+    margin-top: 15vh;
+    margin-left: 5vw;
     font-size: 2rem;
 }
 
@@ -161,6 +163,7 @@ li {
     grid-template-columns: repeat(auto-fit, minmax(100px, 350px));
     justify-content: space-evenly;
     background-color: #f8f8f8;
+    margin-bottom: 0;
 }
 
 .cont-rodape-primeira-div-pos-cabecalho {
@@ -169,15 +172,23 @@ li {
 }
 
 .conjunto-coluna-pos-cabecalho {
-    min-height: 50vh;
+    min-height: 70vh;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 350px));
     grid-template-rows: 1fr;
     background-color:white ;
     justify-content: space-evenly;
+    
 }
 .conteudo-colunas{
     font-size: 1.2rem;
+    border-left: 1px solid rgb(194, 194, 194) ;
+}
+.font-size-conjunto-colunas{
+    font-size: 2rem;
+}
+.conteudo-colunas-border-rigth{
+    border-right: 1px solid rgb(196, 196, 196) ;
 }
 .color-bege{
     color:  #ffb62e;
@@ -187,6 +198,7 @@ li {
     font-size: 2rem;
     background-color: #f8f8f8;
     margin-bottom: 0;
+    margin-top: 0;
     
 }
 .bg-white{
@@ -212,14 +224,13 @@ li {
 .segunda-div1-pos-cabecalho {
     min-height: 60vh;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 400px));
+    grid-template-columns: repeat(auto-fit, minmax(350px, 500px));
     background-image: url( https://mitech.thememove.com/wp-content/uploads/2019/02/mitech-home-infotechno-section-company-bg.png);
     background-repeat: no-repeat;
     justify-content: space-evenly;
 }
 
 .cont-segunda-div-pos-cabecalho {
-    border: 1px solid black;
     font-size: 15px;
     font-weight: 600;
 }
@@ -254,7 +265,7 @@ li {
     grid-gap: 2%;
     overflow: hidden;
     min-width: 600px;
-    justify-content:space-between;
+    justify-content:space-evenly;
 }
 
 .cont-terceira-div-pos-cabecalho {
@@ -288,12 +299,11 @@ li {
 .cont-cabecalho-centro {
     width: 40%;
     margin-left: 40%;
-    margin-top: 30vh;
+    margin-top: 10vh;
 }
 
 .quarta-div-pos-cabecalho {
     min-height: 80vh;
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 400px));
     grid-gap: 2%;
@@ -301,7 +311,7 @@ li {
     background-color: #f6f2ed;
     text-align: center;
     min-width: 720px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .cont-quarta-div-pos-cabecalho {
@@ -322,7 +332,10 @@ li {
     overflow: hidden;
     padding-top: 20vh;
     min-width: 700px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.quinta-div-pos-cabecalho > a:link ,a:hover{
+    border:1px solid black;
 }
 .font-size-quinta-div-pos-cabecalho{
     font-size: 15px;
@@ -337,13 +350,13 @@ li {
     overflow: hidden;
     background-image: url( https://mitech.thememove.com/wp-content/uploads/2019/02/home-infotechno-contact-bg.jpg);
     font-size: 15px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .cont-sexta-div-pos-cabecalho {
     padding-top: 10vh;
     padding-right: 20%;
-    margin-left: 30%;
+
 }
 
 .cont2-sexta-div-pos-cabecalho {
@@ -368,7 +381,7 @@ li {
     grid-template-columns: repeat(auto-fit,minmax(170px,200px));
     overflow: hidden;
     font-size: 13px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .cont-pre-roda-pe {
@@ -396,10 +409,23 @@ li {
     margin-top: 5vh;
 }
 .font-size-rodape{
-    font-size: 2rem;
+    font-size: 20px;
     margin-top: auto;
     margin-bottom:auto;
 }
+.font-size2{
+    font-size: 25px;
+}
 .black2{
     color: black;
+}
+.grey{
+    color: rgb(121, 121, 121);
+}
+.cont-segunda-div-pos-cabecalho >  a:hover{
+    color:blue;
+}
+.pading-top{
+    padding-top:20vh;
+    padding-bottom:auto;
 }

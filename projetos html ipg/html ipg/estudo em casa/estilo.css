@@ -147,8 +147,6 @@ a:link, a:hover, a:active, a:visited {
 }
 .agrupamento-perfil{
     background-color: rgba(245, 245, 245, 0.692);
-    display: inline-block;
-    float: left;
     width: 20%;
     margin:2%;
     text-align:center;
@@ -159,7 +157,9 @@ a:link, a:hover, a:active, a:visited {
     
 }
 .bg{
-    background-color: rgb(163, 56, 56);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
 }
 .solucao2{
     widows: 100%;
